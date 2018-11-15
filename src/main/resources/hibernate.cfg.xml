@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-configuration SYSTEM
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+
+        <!-- SQL Dialect -->
+        <property name = "hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+
+        <!-- JDBC Connection Settins -->
+        <property name = "hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name = "hibernate.connection.url">jdbc:mysql://localhost/hb-01-one-to-one-uni?useSSL=false</property>
+        <property name = "hibernate.connection.username">hbstudent</property>
+        <property name = "hibernate.connection.password">hbstudent</property>
+
+        <!-- JDBC connection pool settings-->
+        <property name="connection.pool.size">1</property>
+
+        <!-- Echo SQL sdout -->
+        <property name="show_sql">true</property>
+
+        <!-- Set the current session context-->
+        <property name="current_session_context_class">thread</property>
+
+    </session-factory>
+</hibernate-configuration>
