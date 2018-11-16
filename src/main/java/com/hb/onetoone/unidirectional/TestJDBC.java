@@ -1,4 +1,4 @@
-package com.hb.onetoone.uni;
+package com.hb.onetoone.unidirectional;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -18,7 +18,7 @@ public class TestJDBC {
             e.printStackTrace();
         }
 
-        String jdbcURL = "jdbc:mysql://localhost/hb-01-one-to-one-uni?useSSL=false";
+        String jdbcURL = "jdbc:mysql://localhost/hb-01-one-to-one-unidirectional?useSSL=false";
         String user = "hbstudent";
         String password = "hbstudent";
 

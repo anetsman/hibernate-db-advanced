@@ -1,7 +1,7 @@
-package com.hb.onetoone.uni;
+package com.hb.onetoone.unidirectional;
 
-import com.hb.onetoone.uni.entity.Instructor;
-import com.hb.onetoone.uni.entity.InstructorDetails;
+import com.hb.onetoone.entity.Instructor;
+import com.hb.onetoone.entity.InstructorDetails;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;

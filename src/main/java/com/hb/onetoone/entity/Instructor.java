@@ -1,4 +1,4 @@
-package com.hb.onetoone.uni.entity;
+package com.hb.onetoone.entity;
 
 import javax.persistence.*;
 
